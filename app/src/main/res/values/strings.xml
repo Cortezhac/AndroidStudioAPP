@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SQLiteMaterial</string>
+    <string name="action_settings">Limpiar</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="TituloApp">DATOS DEL ARTICULO</string>
+    <string name="DescripLogo">Logo PC MASTER RACE</string>
+    <string name="StrCodigo">Ingrese el codigo</string>
+    <string name="StrDescrip">Descripcion del articulo</string>
+    <string name="StrPrecio">Precio del articulo</string>
+    <string name="StrGuardar">Guardar</string>
+    <string name="StrBuscarCode">Buscar por codigo</string>
+    <string name="StrConsuDesc">Consultar por descripcion</string>
+    <string name="StrBorrar">Borrar</string>
+    <string name="StrEdit">Editar</string>
+    <string name="StrBtnSalida">Cerrar Ventana</string>
+    <string name="StrBuscar">BUscar</string>
+    <string name="StrOpcion">Seleccione una opcion</string>
+    <string name="txtCodigo">Codigo</string>
+    <string name="txtDescrip">Descripcion</string>
+    <string name="txtPrecio">Precio</string>
+    <string name="StrVacio">Sin datos</string>
+    <string name="Listado">Datos de articulos registrados</string>
+    <string name="txtResultBus">Resultados de la busqueda</string>
+    <string name="VerResultados">Ver reportes</string>
+    <string name="Editar">Editar informacion</string>
+    <string name="listarArticulos">Seleccionar articulo Drop</string>
+    <string name="listarArticulosDos">Listar Articulos</string>
+    <string name="strFecha">Fecha</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <shape
+            android:innerRadius="100dp">
+            <stroke
+                android:color="#DD2C00"
+                android:width="2dp"/>
+            <corners
+                android:radius="5dp" />
+            <solid
+                android:color="#FFC89E"/>
+            <!--<gradient
+                android:angle="1800"
+                android:endColor="#FF6D00"
+                android:startColor="#FFFFFF"
+                android:type="linear" />-->
+        </shape>
+    </item>
+</selector>

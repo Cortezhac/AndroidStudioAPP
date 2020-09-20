@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cortezhac.sqlitematerial.MainActivity">
+    <item
+        android:id="@+id/action_limpiar"
+        android:icon="@drawable/ic_baseline_clear_24"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_listarArticulos"
+        android:title="@string/listarArticulos" />
+    <item
+        android:id="@+id/action_listarArticulos1"
+        android:title="@string/listarArticulosDos" />
+</menu>

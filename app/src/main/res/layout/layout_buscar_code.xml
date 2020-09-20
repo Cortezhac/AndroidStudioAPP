@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+    <ImageButton
+        android:id="@+id/StrBtnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="#5EFFFFFF"
+        android:contentDescription="@string/StrBtnSalida"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/ic_baseline_cancel_presentation_24"
+        tools:srcCompat="@drawable/ic_baseline_cancel_presentation_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:text="@string/StrBuscarCode"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editFloatCod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/estilo_campo"
+        android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="5sp"
+        android:ems="10"
+        android:hint="@string/StrCodigo"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#DD2C00"
+        android:textColorHint="#DD2C00" />
+
+    <Button
+        android:id="@+id/strBtnBuscar"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/estilo_boton"
+        android:drawableEnd="@drawable/ic_baseline_search_24"
+        android:drawableRight="@drawable/ic_baseline_search_24"
+        android:drawablePadding="-10dp"
+        android:padding="10dp"
+        android:text="@string/StrBuscar"
+        android:textColor="#DD2C00" />
+</LinearLayout>
